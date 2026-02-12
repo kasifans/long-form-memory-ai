@@ -26,7 +26,7 @@ This system solves these challenges by implementing a **hybrid memory architectu
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     User Message (Turn N)                    │
+│                     User Message (Turn N)                   │
 └──────────────────────┬──────────────────────────────────────┘
                        │
                        ├──────────────────────────────────────┐
@@ -42,11 +42,11 @@ This system solves these challenges by implementing a **hybrid memory architectu
                       │                                    │
                       ▼                                    ▼
            ┌────────────────────────────────────────────────────┐
-           │              Memory Storage                         │
-           │  ┌──────────────┐  ┌──────────────────────────┐   │
-           │  │   SQLite     │  │   Vector Store           │   │
-           │  │  (Metadata)  │  │   (Embeddings)           │   │
-           │  └──────────────┘  └──────────────────────────┘   │
+           │              Memory Storage                        │
+           │  ┌──────────────┐  ┌──────────────────────────┐    │
+           │  │   SQLite     │  │   Vector Store           │    │
+           │  │  (Metadata)  │  │   (Embeddings)           │    │
+           │  └──────────────┘  └──────────────────────────┘    │
            └────────────────────────────────────────────────────┘
                       │
                       │ Inject into prompt
