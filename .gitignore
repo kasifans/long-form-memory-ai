@@ -1,0 +1,27 @@
+# Create .gitignore
+echo "# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.db
+*.sqlite3
+venv/
+env/
+
+# Logs
+logs/*.json
+
+# Data
+data/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db" > .gitignore
